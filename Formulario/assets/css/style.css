@@ -1,0 +1,76 @@
+form {
+  font-family: "Tajawal", sans-serif;
+}
+
+.neon {
+  font-size: 6em;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 5px #e61a91,
+  0 0 25px #8d00b8,
+  0 0 50px #520079,
+  0 0 100px #29003b;
+  letter-spacing: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 1s;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.neon2 {
+  font-size: 6em;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 5px #e61a91,
+  0 0 25px #8d00b8,
+  0 0 50px #520079,
+  0 0 100px #29003b;
+  letter-spacing: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 1s;
+  font-size: 35px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.neon3 {
+  font-size: 6em;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 5px #e61a91,
+  0 0 25px #8d00b8,
+  0 0 50px #520079,
+  0 0 100px #29003b;
+  letter-spacing: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 1s;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Establece el fondo de toda la página en negro */
+body {
+  background-color: black;
+  color: white; /* Establece el color del texto en blanco */
+}
+
+/* Si quieres cambiar el color de fondo de algunos elementos específicos, puedes hacerlo individualmente */
+.container {
+  background-color: rgba(0, 0, 0, 0.8); /* Por ejemplo, un fondo negro semi-transparente para el contenedor */
+}
+
+/* También puedes cambiar el color de fondo de los formularios si es necesario */
+form {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.btn.btn-green {
+  background-color: rgb(115, 30, 126); /* Cambia "blue" al color que desees */
+  color: white; /* Cambia "white" al color del texto que desees */
+  /* Otras propiedades de estilo, si es necesario */
+}
+

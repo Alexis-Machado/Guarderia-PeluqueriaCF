@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="../Formulario/assets/img/formulariologo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Formulario de Servicios</title>
+  </head>
+  <body>
+
+    <div class="fixed-bottom text-right p-3">
+      <div class="btn-container">
+        <a href="../Precentación/index.html" class="btn btn-dark btn-sm">
+          <strong>INICIO</strong>
+        </a>
+        <a href="../Guarderia/index.html" class="btn btn-dark btn-sm">
+          <strong>GUARDERIA</strong>
+        </a>
+        <a href="../Peluqueria/index.html" class="btn btn-dark btn-sm">
+          <strong>PELUQUERIA</strong>
+        </a>
+      </div>
+    </div>
+
+    <header class="w-100">
+      <div class="container">
+        <div class="row py-1 mb-3">
+          <h1 class="my-auto neon2">
+            COLAS Y
+            <span >BIGOTES</span>
+          </h1>
+          <img
+            src="./assets/img/formulariologo.png"
+            height="200"
+            alt="Logo"
+            class="ml-auto my-auto d-none d-sm-block"
+          />
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="mx-auto text-center">
+
+        <!-- Aumentar el tamaño en píxeles -->
+        <img src="./assets/img/PG.png" alt="animales" class="img-fluid" width="800" />
+        
+        <h2 class="my-3 neon">Formulario de Servicio✨</h2><br>
+        </div>
+      <form>
+        <div class="form-group neon3">
+          <label for="propietario">Nombre del Propietario: </label>
+          <input
+            type="text"
+            class="form-control"
+            id="propietario"
+            aria-describedby="textoAyuda"
+          />
+          <small id="textoAyuda" class="form-text text-muted"
+            >Nunca compartiremos tus datos.</small
+          ><br>
+        </div>
+        <div class="form-group neon3">
+          <label for="telefono ">Cedula: </label>
+          <input type="text" class="form-control" id="telefono" />
+        </div>
+        <div class="form-group neon3">
+          <label for="telefono">Numero Telefonico: </label>
+          <input type="text" class="form-control" id="telefono" />
+        </div>
+        <div class="form-group neon3">
+          <label for="telefono">Numero de energencia: </label>
+          <input type="text" class="form-control" id="telefono" />
+        </div>
+        <div class="form-group neon3">
+          <label for="direccion">Bario en que reside: </label>
+          <input type="text" class="form-control" id="direccion" />
+        </div>
+        <div class="form-group neon3">
+          <label for="direccion">Dirección: </label>
+          <input type="text" class="form-control" id="direccion" />
+        </div>
+        <div class="form-group neon3">
+          <label for="nombreMascota">Nombre de la Mascota: </label>
+          <input type="text" class="form-control" id="nombreMascota" />
+        </div>
+        <div class="form-group neon3">
+          <label for="nombreMascota">Fecha de Cumpleaños de la Mascota: </label>
+          <input type="text" class="form-control" id="nombreMascota" />
+        </div>
+        <div class="form-group neon3">
+          <label for="nombreMascota">Edad de la Mascota: </label>
+          <input type="text" class="form-control" id="nombreMascota" />
+        </div>
+        <div class="form-group neon3">
+          <label for="nombreMascota">Alergias: </label>
+          <input type="text" class="form-control" id="nombreMascota" />
+        </div>
+        <div class="form-group neon3">
+          <label for="nombreMascota">Raza: </label>
+          <input type="text" class="form-control" id="nombreMascota" />
+        </div>
+        <div class="form-group neon3">
+          <label for="nombreMascota">¿Con que tipos de vacunas cuenta su Mascota?: </label>
+          <input type="text" class="form-control" id="nombreMascota" />
+        </div>
+        <div class="form-group neon3">
+          <label for="tipo">Tipo de Mascota</label>
+          <select class="form-control" id="tipo">
+            <option value="perro">Perro</option>
+            <option value="gato">Gato</option>
+            <option value="conejo">Conejo</option>
+          </select>
+        </div>
+        <div class="form-group neon3">
+          <label for="mac">¿Prefiere el servicio a domicilio o prefiere traer a su mascota?</label>
+          <select class="form-control" id="tipo">
+            <option value="domicilio">A domicilio</option>
+            <option value="traer">Traerla</option>
+          </select>
+        </div>
+        <div class="form-group neon3">
+          <label for="nombreMascota">Observacines: </label>
+          <input type="text" class="form-control" id="nombreMascota" />
+        </div><br>
+        <div class="form-group neon3">
+        <button type="submit" class="btn btn-green"><strong>Agregar</strong></button>
+      </form><br><br>
+      <label for="tipo">Seleccione el servicio que desea:</label>
+      <select onchange="window.location.href = this.value;" class="form-control">
+        <option value="">-- Seleccione un servicio --</option>
+        <option value="../Guarderia/index.html">Guardería</option>
+        <option value="../Peluqueria/index.html">Peluquería</option>
+      </select>
+    </div>
+      <div class="text-center mt-5">
+        <p><strong>Datos Agregados</strong></p>
+        <div id="resultado">
+          <ul id="ulresultado"></ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- JQuery y Bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

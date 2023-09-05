@@ -1,0 +1,89 @@
+:root {
+  --color-primary: #e026b8;
+  --bg-black: #000;
+}
+/* Utilidades */
+.color-first {
+  background-color: var(--color-primary);
+}
+.bg-black {
+  background-color: var(--bg-black);
+}
+hr.border-first {
+  background-color: var(--color-primary);
+}
+/* Header */
+@media screen and (max-width: 380px) {
+  .text-logo {
+    font-size: 28px;
+  }
+}
+.img-first,
+.img-second,
+.img-third {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.img-first {
+  background-image: url(../img/1.jpg);
+}
+.img-second {
+  background-image: url(../img/ZX.jpg);
+}
+.img-third {
+  background-image: url(../img/qw.jpg);
+}
+
+.neon {
+  font-size: 6em;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 5px #e61a91,
+  0 0 25px #8d00b8,
+  0 0 50px #520079,
+  0 0 100px #29003b;
+  letter-spacing: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 1s;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.justificado {
+  text-align: justify;
+}
+
+.video-container {
+  position: relative;
+  width: 100%; /* Asegura que el contenedor ocupa todo el ancho de la pantalla */
+  overflow: hidden; /* Oculta cualquier parte del video que se desborde del contenedor */
+}
+
+video {
+  width: 100%; /* Establece el ancho del video al 100% del contenedor */
+  height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción original */
+  object-fit: cover; /* Escala el video para llenar el contenedor sin distorsión */
+  position: absolute; /* Permite superponer otros elementos, como el div de superposición */
+  top: 0;
+  left: 0;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end; /* Alinea los botones a la derecha */
+}
+
+.btn-container a {
+  margin-left: 10px; /* Agregamos un margen izquierdo para separar los botones */
+}
+
+.contact-info {
+  position: fixed;
+  bottom: 10px; /* Ajusta la distancia desde la parte inferior según tus preferencias */
+  left: 10px; /* Ajusta la distancia desde el borde izquierdo según tus preferencias */
+  font-size: 14px; /* Tamaño del texto */
+}
+

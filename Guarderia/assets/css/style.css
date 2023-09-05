@@ -1,0 +1,55 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #000; /* Establecer el color de fondo en negro */
+}
+.card {
+  max-width: 278px;
+}
+.card-body .product-address {
+  font-size: 13px;
+}
+.card-body .product-address i {
+  font-size: 9px;
+  vertical-align: text-top;
+  line-height: 15px;
+}
+.card-body .card-price {
+  border-top: 1px solid #000000;
+  margin-top: 15px;
+}
+.price-offer {
+  font-size: 20px;
+}
+
+
+.neon {
+  font-size: 6em;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 5px #e61a91,
+  0 0 25px #8d00b8,
+  0 0 50px #520079,
+  0 0 100px #29003b;
+  letter-spacing: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 1s;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* En tu archivo CSS */
+.bg-purple {
+  background-color: purple; /* Cambia "purple" al color púrpura que desees */
+}
+
+.logo-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px; /* Ajusta este valor según tus preferencias */
+}
+
+.logo {
+  height: 100px; /* Ajusta la altura según tus necesidades */
+}

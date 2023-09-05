@@ -1,0 +1,85 @@
+:root {
+  --black: #707070;
+  --white: #000000;
+  --pink: #e83e8c;
+  --info: #17a2b8;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #000; /* Código de color negro (#000) */
+}
+.navbar {
+  background-color: var(--pink);
+}
+main h1 {
+  color: var(--black);
+}
+.section-pago {
+  background-color: var(--info);
+  color: var(--white);
+  font-size: 40px;
+  font-weight: bold;
+}
+.medios-pago {
+  font-size: 70px;
+}
+footer {
+  background-color: var(--pink);
+  text-align: center;
+  width: 100%;
+}
+footer img {
+  width: 50px;
+}
+
+.neon {
+  font-size: 6em;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 5px #e61a91,
+  0 0 25px #8d00b8,
+  0 0 50px #520079,
+  0 0 100px #29003b;
+  letter-spacing: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 1s;
+  font-size: 30px;
+  font-family: forte;
+}
+
+
+.neon2 {
+  font-size: 6em;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 5px #e61a91,
+  0 0 25px #8d00b8,
+  0 0 50px #520079,
+  0 0 100px #29003b;
+  letter-spacing: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 1s;
+  font-size: 15px;
+  font-family: forte;
+}
+
+
+.imagen-container {
+  max-width: 100%; /* Ajustar al ancho máximo del contenedor */
+  text-align: center; /* Centrar la imagen horizontalmente */
+}
+
+.imagen {
+  max-height: 100px; /* Altura máxima de la imagen */
+  width: auto; /* Ajustar automáticamente el ancho en proporción */
+}
+
+.icono-medio-pago {
+  width: 70px; /* Ancho deseado */
+  height: 70px; /* Altura deseada */
+  border: 2px solid #ccc; /* Borde de 2 píxeles de ancho, puedes ajustarlo */
+  border-radius: 10px; /* Redondea las esquinas con un radio de 10 píxeles */
+  margin: 10px; /* Agrega margen para separar las imágenes */
+}
